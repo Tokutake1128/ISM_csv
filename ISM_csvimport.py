@@ -253,9 +253,14 @@ def main():
                 <body>
                 <h1>Data Report</h1>
                 <p>作成日: {formatted_date}</p>
+                <p>隣接行列＋単位行列</p>
                 {html_df}
+                <ｂｒ>
+                <p>可到達行列</p>
                 {html_rea_matrix}
+                
                 {html_nodelist}
+                <p>全体構造</p>
                 {html_fig}
                 </body>
                 </html>
