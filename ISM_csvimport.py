@@ -225,15 +225,6 @@ def main():
                     html_rea_matrix += '</tr>'
                 html_rea_matrix += '</tbody></table>'
 
-                st.write("隣接行列")
-                st.markdown(html_df, unsafe_allow_html=True)
-                
-                st.write("可到達")
-                st.markdown(html_rea_matrix, unsafe_allow_html=True)
-            
-                st.write("ノードリスト")
-                st.markdown(html_nodelist, unsafe_allow_html=True)
-
                 now = datetime.now()
                 formatted_date = now.strftime("%Y/%m/%d %H:%M")
                 
